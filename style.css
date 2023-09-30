@@ -1,0 +1,81 @@
+body {
+    background-image: url('1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the form container */
+#form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #a8a8a807;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form inputs and buttons */
+input[type="text"],
+input[type="number"],
+button {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+/* Style buttons individually */
+#postButton {
+    width: 400px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#getButton {
+    width: 400px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#putButton {
+    width: 400px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteButton {
+    width: 400px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add some spacing to the result container */
+#results {
+    margin-top: 200px;
+}
+
+/* Style result container */
+#results p {
+    color: blue;
+    background-color: #a8a8a800;
+    padding: 10px;
+    border: 1px solid #a8a8a800;
+    border-radius: 4px;
+    font-size: 30px;
+    margin-top: 10px;
+}                    
